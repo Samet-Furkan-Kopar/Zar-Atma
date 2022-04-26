@@ -10,7 +10,7 @@ var skrbir=0,skriki=0;
 var sira=0;
 var rnd=0;
 var oyunbitti=false;
-
+///deneme
 function salla(oyuncu){
     if(!oyunbitti){
         sira=oyuncu;
@@ -77,8 +77,8 @@ function at(){
     if(sira===1){
         skrbir+=rnd;
         skorbir.innerHTML=skrbir;
-        if
-            oyunbitti=t(skrbir>50){rue;
+       if(skrbir>50)
+            {oyunbitti=true;
             alert("Oyunun Kazananı 1 Kumaralı Oyuncudur.");
         }
 
